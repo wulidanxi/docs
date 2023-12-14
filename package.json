@@ -1,0 +1,27 @@
+{
+  "name": "docs1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "chrome 78"
+  ],
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.23.4",
+    "@babel/preset-env": "^7.23.5",
+    "@vuepress/bundler-webpack": "2.0.0-rc.0",
+    "@vuepress/cli": "2.0.0-rc.0",
+    "@vuepress/client": "2.0.0-rc.0",
+    "babel-loader": "^9.1.3",
+    "sass-loader": "^13.3.2",
+    "vue": "^3.3.10",
+    "vuepress-webpack": "2.0.0-rc.0"
+  }
+}
